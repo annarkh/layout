@@ -1,5 +1,6 @@
 doctype html
 head
+    meta(charset="UTF-8")
     block head
         link(
         rel="stylesheet"
@@ -18,16 +19,7 @@ head
     title My Site -- #{title}
 body
     block header
-        nav.uk-navbar-container(uk-navbar)
-            div.uk-navbar-left
-                ul.uk-navbar-nav
-                    li.uk-active
-                        a(href="#") Кнопка 1
-                    li.uk-parent
-                        a(href="#") Кнопка 2
-
-
-
+        include common.blocks/header
 
     block content
         p No content
