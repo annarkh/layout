@@ -7,18 +7,27 @@ head
         )
         link(
         rel="stylesheet"
-        href="uikit.css"
+        href="res/css/uikit.css"
         )
         script(
-        src="jquery.js"
+            src="res/js/jquery.js"
         )
         script(
-        src="uikit.js"
+            src="res/js/uikit.js"
         )
     title My Site -- #{title}
 body
     block header
-        p Header
+        nav.uk-navbar-container(uk-navbar)
+            div.uk-navbar-left
+                ul.uk-navbar-nav
+                    li.uk-active
+                        a(href="#") Кнопка 1
+                    li.uk-parent
+                        a(href="#") Кнопка 2
+
+
+
 
     block content
         p No content
