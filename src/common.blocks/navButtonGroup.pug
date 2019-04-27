@@ -1,2 +1,5 @@
-li.uk-button-default(href="#") Войти
-li.uk-button-default(href="#") Зарегистрироваться
+include button
+li.nav-button-group__item
+    +button("empty", "Войти", "#1")
+li.nav-button-group__item
+    +button("filled", "Зарегистрироваться", "#2")
