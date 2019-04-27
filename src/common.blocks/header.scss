@@ -4,6 +4,15 @@
 }
 .header.header__navbar{
   height: 70px;
+
+}
+.header.header__navbar.header__navbar_shadowed
+{
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+.header.header__navbar.header__navbar_white
+{
+  background: #FFFFFF;
 }
 .header.header__items{
   margin-right: 140px;
