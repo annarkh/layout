@@ -17,6 +17,11 @@ head
             src="res/js/uikit.js"
         )
     title My Site -- #{title}
+    <script>    if (module.hot) {
+    |         module.hot.accept(function () {
+    |             window.location.reload();
+    |         });
+    | }</script>
 body
     block header
         include common.blocks/header

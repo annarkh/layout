@@ -5,8 +5,11 @@ a.uk-button.uk-button-default.button__inner {
   font-size: 12px;
   line-height: normal;
   text-transform: uppercase;
-  border: 0;
 
+  border: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 22px;
 }
 
 div.button__outer {
@@ -14,13 +17,6 @@ div.button__outer {
   position: relative;
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   padding: 2px;
-}
-
-a.uk-button.uk-button-default.button__inner{
-
-  padding-top: 8px;
-  padding-bottom: 8px;
-  border-radius: 22px;
 }
 
 a.uk-button.uk-button-default.button__inner.button__inner_filled {
