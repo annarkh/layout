@@ -1,5 +1,7 @@
 a.anchor.anchor__a
 {
+  display: inline-block;
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -12,5 +14,8 @@ a.anchor.anchor__a
 }
 a.anchor.anchor__a.anchor__a_dropdown
 {
-
+}
+img.anchor.anchor__img.anchor__img_dropdown
+{
+  margin-left: 6px;
 }

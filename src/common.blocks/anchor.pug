@@ -1,2 +1,4 @@
 mixin anchor(modifier, text, url)
     a(class="anchor anchor__a anchor__a_" + modifier href=url) #{text}
+    if modifier === "dropdown"
+        img.anchor.anchor__img.anchor__img_dropdown(src="/res/img/expand_more.svg")

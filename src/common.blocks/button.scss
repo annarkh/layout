@@ -19,11 +19,67 @@ div.button__outer {
   padding: 2px;
 }
 
+div.uk-button.uk-button-default.button__outer.button__outer_filled {
+  //max-width: 196px;
+  // TODO: test
+  padding-bottom: 0px;
+
+  padding-top: 0px;
+
+  padding-left: 0px;
+
+  padding-right: 0px;
+}
 a.uk-button.uk-button-default.button__inner.button__inner_filled {
   color: #FFFFFF;
-}
+  //max-width: 192px;
 
+  // TODO: finish him!
+  padding-left: 19px;
+
+  padding-right: 20px;
+
+  margin-bottom: 2px;
+
+  margin-left: 2px;
+
+  margin-top: 0px;
+
+  margin-right: 2px;
+
+  padding-bottom: 10px;
+
+  padding-top: 9px;
+
+}
+div.uk-button.uk-button-default.button__outer.button__outer_empty {
+  //TODO
+  padding-top: 0px;
+
+  padding-left: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+}
 a.uk-button.uk-button-default.button__inner.button__inner_empty {
   background-color: #ffffff;
   color: #BC9CFF;
+
+//  TODO
+  padding-left: 18px;
+
+  padding-right: 18px;
+
+  padding-bottom: 7px;
+
+  margin-bottom: 2px;
+
+  margin-right: 2px;
+
+  margin-left: 2px;
+
+  margin-top: 2px;
+
+  padding-top: 8px;
 }
