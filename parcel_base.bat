@@ -1,1 +1,1 @@
-parcel src/base.pug
+parcel serve src/base.pug
